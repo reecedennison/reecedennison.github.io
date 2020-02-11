@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Courier Prime', monospace; */
+/* COLORS:
+LIGHT BLUE: #C7FFE4
+MID BLUE: #8CC9CF
+DARK BLUE: #3A9199
+LIGHT PINK: #FFDEF1
+DARK PINK: #FF8790 */
+
+/* OVERALL */
+.container{
+    max-width: 775px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    padding-top: 50px;
+    font-size: 20px;
+}
+header a{
+    color: #8CC9CF;
+}
+header a:hover{
+    background-color: #FFDEF1;
+    color: black;
+}
+body{
+    background-color: #C7FAFF;
+}
+a{
+    text-decoration: none;
+}
+main{
+    font-family: 'Courier Prime', monospace;
+}
+li{
+    line-height: 30px;
+    font-size: 18px;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 3px 4px #FF9991;
+}
+footer{
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #8CC9CF;
+    font-size: 18px;
+}
+footer a{
+    color: #8CC9CF;
+    text-decoration: underline;
+    text-decoration-color: #8cc9cf;
+}
+footer a:hover{
+    background-color: #FFDEF1;
+    color: black;
+    text-decoration-color: black;
+}
+
+/* HOME */
+#intro{
+    text-align: center;
+}
+#intro h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 3px 4px #FF8790;
+}
+#intro h2{
+    font-weight: 400;
+}
+#intro a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #FF8790;
+}
+#intro a:hover{
+    background-color: #FFDEF1;
+}
+#intro p{
+    color: #FF8790
+}
+#intro p a {
+    color: #FF8790;
+    text-decoration-color: #8CC9CF;
+}
+#intro p a:hover{
+    background-color:#FFDEF1
+}
+
+/* EXPERIENCE */
+#resume h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #FF8790;
+    text-shadow: 3px 4px #FFDEF1
+}
+#resume h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    line-height: 0px;
+    font-size: 25px;
+    color: #8cc9cf;
+}
+
+/* EDUCATION */
+#education h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #FF8790;
+    text-shadow: 3px 4px #FFDEF1
+}
+#education h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 0px;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: #FFDEF1
+}
+#education h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+#education ul{
+    color: #3A9199
+}
+#achievements h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #FF8790;
+    text-shadow: 3px 4px #FFDEF1;
+    font-size: 40px;
+}
+#achievements ul{
+    color: #3A9199
+}
+#involvement h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #FF8790;
+    text-shadow: 3px 4px #FFDEF1;
+    font-size: 40px;
+}
+#involvement h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: #FFDEF1
+}
+#involvement h4{
+    font-size: 22px;
+    line-height: 2px;
+    font-weight: 400;
+}
+#involvement ul{
+    color: #3A9199
+}
+
+/* WORK */
+#skills h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #FF8790;
+    text-shadow: 3px 4px #FFDEF1
+}
+#design h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #FF8790;
+    text-shadow: 3px 4px #FFDEF1
+}
+#design h3{
+    font-weight:400;
+}
+#design p{
+    color: #3A9199
+}
+#writing h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #FF8790;
+    text-shadow: 3px 4px #FFDEF1
+}
+#writing h3{
+    font-weight:400;
+}
+#writing a{
+    color: #3A9199;
+}
+#writing a:hover{
+    color: black;
+    background-color: #8cc9cf;
+}
+
+/* ABOUT */
+#me img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float:right;
+    padding: 40px;
+}
+#me h3{
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-bottom: 35px;
+    background: #FF8790;
+    text-align:justify;
+    font-weight: 400;
+}
+#values h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #FF8790;
+    text-shadow: 3px 4px #FFDEF1
+}
+#values h3{
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #FFDEF1;
+    font-weight: 400;
+}
+#values p{
+    color: #3A9199
+}
+#chat h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #FF8790;
+    text-shadow: 3px 4px #FFDEF1
+}
+#chat h3{
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #FFDEF1;
+    font-weight: 400;
+}
+#chat p{
+    color: #3A9199}
+#contact h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    color: #FFDEF1;
+    text-shadow: 2px 2px #FF8790
+}
+#contact h3{
+    font-family: 'Courier Prime', monospace;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+#contact a{
+    Color: black;
+    text-decoration: underline;
+    text-decoration-color: #FFDEF1;
+}
+#contact a:hover{
+    background-color: #FF8790;
+    color: black
+}
+#contact{
+    background-color: #8cc9cf;
+}
