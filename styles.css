@@ -187,6 +187,13 @@ footer a:hover{
 #design p{
     color: #3A9199
 }
+#design a{
+    color: #3A9199;
+}
+#design a:hover{
+    color: black;
+    background-color: #8cc9cf;
+}
 #writing h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
